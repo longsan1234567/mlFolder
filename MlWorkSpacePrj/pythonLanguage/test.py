@@ -4,7 +4,6 @@
 # @Email   : 1163820757@qq.com
 # @File    : test.py
 # @Software: PyCharm
+import sklearn
 
-import numpy as  np
-
-print('你好')
+print(sklearn.__version__)
