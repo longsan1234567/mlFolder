@@ -30,6 +30,7 @@ Y = np.array(list(map(lambda t:func1(t),X))) ## ? lambda 表达式
 # plt.plot(X, Y, 'r-', linewidth=2)
 # plt.title(u'函数$y=0.5 * (θ - 0.25)^2$')
 # plt.show()
+# 效果对应 一维梯度图片
 
 # 二维图形
 def func2(x1,x2):
@@ -47,11 +48,16 @@ Y2 = np.array(list(map(lambda t: func2(t[0],t[1]), zip(X1.flatten(),X2.flatten()
 
 Y2.shape = X1.shape;
 
+
+# 画图
 fig = plt.figure(facecolor='w')
 ax = Axes3D(fig)
-ax.plot_surface(X1, X2, Y2, rstride=1, cstride=1, cmap=plt.cm.jet)
+ax.plot_surface(X1, X2, Y2, rstride = 1, cstride=1, cmap = plt.cm.jet)
 ax.set_title(u'函数$y=0.6 * (θ1 + θ2)^2 - θ1 * θ2$')
 plt.show()
+# 效果:二维梯度图片
+
+
 
 
 
