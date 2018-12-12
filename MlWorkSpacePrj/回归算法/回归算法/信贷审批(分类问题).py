@@ -141,6 +141,7 @@ Y = datas[new_names[-1]]
 X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.2,train_size = 0.8, random_state=0)
 
 print(X_train.shape)
+print(Y_train.shape)
 print(X_test.shape)
 
 
@@ -174,7 +175,8 @@ plt.plot(x_len, Y_test, 'ro',markersize = 6, zorder=3, label=u'真实值')
 plt.plot(x_len, lr_y_predict, 'go', markersize = 10, zorder=2,
          label=u'Logistic算法预测值,准确率=%.3f' % lr.score(X_test, Y_test))
 plt.legend(loc = 'center right')
-plt.xlabel(u'数据编号', fontsize=18)
+plt.xlabel(u'数据编号', fontsize = 18)
 plt.ylabel(u'是否审批(0表示未通过，1表示通过)', fontsize=18)
 plt.title(u'Logistic回归算法', fontsize=20)
 plt.show()
+
