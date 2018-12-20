@@ -16,6 +16,15 @@ def entropy(t):
     return np.sum([-i * np.log2(i) for i in t])
 
 
+'''
+ 计算gini系数
+'''
+def gini(t):
+    return 1 - np.sum(np.array(t)**2)
+
+
+
+
 h = entropy([0.7,0.3])
 print('原始数据的信息熵%.3f'%h)
 
