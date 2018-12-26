@@ -39,6 +39,38 @@ print(d,s)
 '''
 
 
+'''
+numpy.dstack(）函数
+等价于：np.concatenate(tup, axis=2)
+'''
+x1 = np.array((1,2,3))
+x2 = np.array((2,3,4))
+print(np.dstack((x1,x2)))
+
+'''
+输出
+[[[1 2]
+  [2 3]
+  [3 4]]]
+'''
+
+
+
+'''
+ numpy.ravel()函数
+ 返回扁平连续的数组
+'''
+print("----------------")
+x = np.array([[1,2,3],[4,5,6]])
+
+print(np.ravel(x))
+print(x.reshape(-1))
+
+print(np.ravel(x,order='F'))
+print(np.ravel(x.T))
+
+print(np.ravel(x.T,order='A'))
+
 
 
 
