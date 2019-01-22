@@ -99,9 +99,7 @@ forest_y_score = forest.predict_proba(x_test)
 
 print('预测概率的结构:{}'.format(np.array(forest_y_score).shape))
 
-
-
-
+print(forest_y_score[0])
 
 
 
