@@ -16,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MlWorkSpacePrj$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1545037485142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/回归算法/py语法知识" />
     <SUITE FILE_PATH="coverage/MlWorkSpacePrj$xgboost.coverage" NAME="xgboost测试 Coverage Results" MODIFIED="1547041529627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/集成算法" />
+    <SUITE FILE_PATH="coverage/MlWorkSpacePrj$testmysql.coverage" NAME="testmysql Coverage Results" MODIFIED="1550750094490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/项目/音乐系统分类" />
     <SUITE FILE_PATH="coverage/MlWorkSpacePrj$numpytest.coverage" NAME="numpytest Coverage Results" MODIFIED="1545374240878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/回归算法/py语法知识" />
     <SUITE FILE_PATH="coverage/MlWorkSpacePrj$K_Means.coverage" NAME="K-Means算法 Coverage Results" MODIFIED="1547718940143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/聚类算法k-means" />
     <SUITE FILE_PATH="coverage/MlWorkSpacePrj$__1_.coverage" NAME="时间与功率 (1) Coverage Results" MODIFIED="1543894629670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/回归算法/回归算法" />
@@ -49,13 +50,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="面试代码.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="面试代码.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/项目/音乐系统分类/面试代码.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2724551">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#235#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testmysql.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/项目/音乐系统分类/testmysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3233533">
+              <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+              <folding>
+                <marker date="1550750219012" expanded="true" signature="599:647" placeholder="insert into userinfo... " />
+                <marker date="1550750219012" expanded="true" signature="860:909" placeholder="insert INTO userinfo... " />
+                <marker date="1550750219012" expanded="true" signature="1166:1200" placeholder="delete from " />
+                <marker date="1550750219012" expanded="true" signature="1351:1367" placeholder="update useri... " />
+                <marker date="1550750219012" expanded="true" signature="1351:1375" placeholder="update useri... " />
+                <marker date="1550750219012" expanded="true" signature="1351:1394" placeholder="update useri... " />
+                <marker date="1550750219012" expanded="true" signature="1351:1395" placeholder="update useri... " />
+                <marker date="1550750219012" expanded="true" signature="1351:1397" placeholder="update useri... " />
+                <marker date="1550750219012" expanded="true" signature="1597:1624" placeholder="select useri... " />
+                <marker date="1550750219012" expanded="true" signature="1597:1637" placeholder="select useri... userinfo" />
+                <marker date="1550750219012" expanded="true" signature="1925:1974" placeholder="insert INTO userinfo... " />
+                <marker date="1550750219012" expanded="true" signature="1985:2027" placeholder="insert INTO hobby... " />
               </folding>
             </state>
           </provider>
@@ -74,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pythonLanguage/email/datas/001" />
         <option value="$PROJECT_DIR$/pythonLanguage/email/datas/000" />
         <option value="$PROJECT_DIR$/pythonLanguage/email/__init__.py" />
         <option value="$PROJECT_DIR$/pythonLanguage/email/datas/清洗数据.py" />
@@ -125,6 +148,7 @@
         <option value="$PROJECT_DIR$/项目/音乐系统分类/pydub_demo.py" />
         <option value="$PROJECT_DIR$/项目/音乐系统分类/pydub_hmm_test.py" />
         <option value="$PROJECT_DIR$/项目/音乐系统分类/面试代码.py" />
+        <option value="$PROJECT_DIR$/项目/音乐系统分类/testmysql.py" />
       </list>
     </option>
   </component>
@@ -134,7 +158,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="434" />
+    <option name="x" value="134" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="832" />
@@ -319,7 +343,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="/anaconda3/envs/mlenvment/bin/python" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -347,7 +371,7 @@
       <recent name="$PROJECT_DIR$/回归算法/家庭用电预测/result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.面试代码">
+  <component name="RunManager" selected="Python.testmysql">
     <configuration default="false" name="pydub_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -398,6 +422,24 @@
       <module name="MlWorkSpacePrj" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/项目/音乐系统分类/面试代码.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testmysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/项目/音乐系统分类" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MlWorkSpacePrj" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/项目/音乐系统分类/testmysql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -595,16 +637,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.pydub_demo" />
       <item index="1" class="java.lang.String" itemvalue="Python.pydub_hmm_test" />
       <item index="2" class="java.lang.String" itemvalue="Python.面试代码" />
+      <item index="3" class="java.lang.String" itemvalue="Python.testmysql" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.面试代码" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pydub_hmm_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pydub_demo" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.testmysql" />
+        <item index="1" class="java.lang.String" itemvalue="Python.面试代码" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pydub_hmm_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pydub_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -631,16 +675,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="434" y="23" width="1440" height="832" extended-state="0" />
+    <frame x="134" y="23" width="1440" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19208632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.035971224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38" sideWeight="0.49019608" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5165165" sideWeight="0.50980395" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32428572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.12571429" sideWeight="0.49683043" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.34428573" sideWeight="0.49683043" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46285716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -985,12 +1029,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///anaconda3/envs/mlenvment/lib/python3.7/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33233532">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/项目/音乐系统分类/面试代码.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2724551">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#235#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目/音乐系统分类/testmysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3233533">
+          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+          <folding>
+            <marker date="1550750219012" expanded="true" signature="599:647" placeholder="insert into userinfo... " />
+            <marker date="1550750219012" expanded="true" signature="860:909" placeholder="insert INTO userinfo... " />
+            <marker date="1550750219012" expanded="true" signature="1166:1200" placeholder="delete from " />
+            <marker date="1550750219012" expanded="true" signature="1351:1367" placeholder="update useri... " />
+            <marker date="1550750219012" expanded="true" signature="1351:1375" placeholder="update useri... " />
+            <marker date="1550750219012" expanded="true" signature="1351:1394" placeholder="update useri... " />
+            <marker date="1550750219012" expanded="true" signature="1351:1395" placeholder="update useri... " />
+            <marker date="1550750219012" expanded="true" signature="1351:1397" placeholder="update useri... " />
+            <marker date="1550750219012" expanded="true" signature="1597:1624" placeholder="select useri... " />
+            <marker date="1550750219012" expanded="true" signature="1597:1637" placeholder="select useri... userinfo" />
+            <marker date="1550750219012" expanded="true" signature="1925:1974" placeholder="insert INTO userinfo... " />
+            <marker date="1550750219012" expanded="true" signature="1985:2027" placeholder="insert INTO hobby... " />
           </folding>
         </state>
       </provider>
